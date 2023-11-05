@@ -1,8 +1,8 @@
 import axios from 'axios'
 
 describe('Get Winners producers', () => {
-  it('should return the lower and bigger winners from /movies endpoint', async () => {
-    const response = await axios.get('http://localhost:3000/movies')
+  it('should return the lower and bigger winners from /producers endpoint', async () => {
+    const response = await axios.get('http://localhost:3000/producers')
     expect(response.status).toBe(200)
     expect(response.data).toStrictEqual({
       max: [

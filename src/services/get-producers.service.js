@@ -1,4 +1,4 @@
-export const loadmovies = (moviesList) => {
+export const getProducers = (moviesList) => {
   const winners = []
 
   const moviesByProducer = getMoviesByProducer(moviesList)
@@ -12,6 +12,8 @@ export const loadmovies = (moviesList) => {
 
   return getIntervals(winners)
 }
+
+export const addProducers = (req, res) => {}
 
 const getMoviesByProducer = (moviesList) => {
   let moviesByProducer = []

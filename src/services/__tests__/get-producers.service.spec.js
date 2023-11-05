@@ -1,4 +1,4 @@
-import { loadmovies } from '../get-movies.js'
+import { getProducers } from '../get-producers.service.js'
 
 describe('Get Winners producers', () => {
   const movies = [
@@ -69,7 +69,7 @@ describe('Get Winners producers', () => {
   ]
 
   it('should return the lower and bigger winners', () => {
-    const winners = loadmovies(movies)
+    const winners = getProducers(movies)
 
     expect(winners.max).toStrictEqual([
       {
