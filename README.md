@@ -22,7 +22,9 @@ npm test
 
 > /producers - GET
 
-Status 200:
+Response:
+
+Status 200
 
 ```json
 {
@@ -47,7 +49,32 @@ Status 200:
 
 > /movies - POST
 
-Status 201:
+Request:
+
+Body:
+
+```json
+[
+  {
+    "year": 1990,
+    "title": "O Teste",
+    "studios": "MGM",
+    "producers": "Jhon test",
+    "winner": "yes"
+  },
+  {
+    "year": 1991,
+    "title": "O Teste2",
+    "studios": "MGM",
+    "producers": "Jhon test",
+    "winner": "yes"
+  }
+]
+```
+
+Response:
+
+Status 201
 
 ```json
 {
@@ -57,7 +84,9 @@ Status 201:
 
 > /movies - GET
 
-Status 200:
+Response:
+
+Status 200
 
 ```json
 [
@@ -83,7 +112,9 @@ Status 200:
 
 > /movies/{id} - GET
 
-Status 200:
+Response:
+
+Status 200
 
 ```json
 {
