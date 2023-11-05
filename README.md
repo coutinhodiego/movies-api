@@ -126,3 +126,11 @@ Status 200
   "winner": "yes"
 }
 ```
+
+Status 404
+
+```json
+{
+  "message": "Movie not found"
+}
+```
