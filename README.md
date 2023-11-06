@@ -2,11 +2,12 @@
 
 A API for list movies idicated a Raspberry Awards
 
-## Run API
+## Install packages and run the API
 
-To run the API
+To install packages you need to have a latest Node version in your machine.
 
 ```
+npm install
 npm start
 ```
 
